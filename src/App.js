@@ -10,18 +10,18 @@ const App =()=> {
   return (
 
     <BrowserRouter>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success">
-  <div className="container-fluid">
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-        <li className="nav-item">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-success ">
+  <div className="container-fluid  ">
+    <div className="collapse navbar-collapse row" id="navbarNav">
+      <ul className="navbar-nav ">
+        <li className="nav-item offset-3 col-2 ">
           <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" href="#" to="/profile">Profile</Link>
+        <li className="nav-item col-2">
+          <Link className="nav-link active"  to="/profile">Profile</Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" href="#" to="/about">Profile</Link>
+        <li className="nav-item  col-2">
+          <Link className="nav-link active" to="/about">About</Link>
         </li>
         
       </ul>

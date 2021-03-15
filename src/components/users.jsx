@@ -10,7 +10,8 @@ const Users = (props)=>{
             </tr>
     ));
     return (
-          <table class = "table table-success rounded">
+        <div>
+          <table className = "table table-success rounded mx-0 px-0 text-center">
               <thead>
                   <tr>
                   <th>Name</th>
@@ -21,6 +22,7 @@ const Users = (props)=>{
                 {tableData}
               </tbody>
           </table>
+          </div>
         )
 }
 

@@ -25,10 +25,19 @@ export default class Login extends Component{
     }
     render(){
         return (
-            <div>
-                <input type="text" placeholder= "Name" onChange = {this.changeName} value = {this.state.name}></input>
-                <input type="text" placeholder= "Age" onChange = {this.changeAge}  value = {this.state.age}></input>
-                <button onClick = {this.add}>Join Ninja Turtles</button>
+            <div className="container text-center ">
+                <div className="row"> 
+                <input type="text" className = "offset-5 col-2 rounded-pill mt-5"
+                placeholder= "Name" onChange = {this.changeName} value = {this.state.name}></input>
+                </div>
+                <div className="row"> 
+                <input type="text" className = "offset-5 col-2 rounded-pill mt-5"
+                placeholder= "Age" onChange = {this.changeAge}  value = {this.state.age}></input>
+                </div>
+                <div className="row"> 
+                <button className = "btn btn-success offset-5 col-2 rounded-pill mt-5 mb-5"
+                onClick = {this.add}>Join Ninja Turtles</button>
+                </div>
             </div>
        )
     }
