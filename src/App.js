@@ -10,7 +10,7 @@ const App =()=> {
   return (
 
     <BrowserRouter>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success ">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-success ">
   <div className="container-fluid  ">
     <div className="collapse navbar-collapse row" id="navbarNav">
       <ul className="navbar-nav ">
