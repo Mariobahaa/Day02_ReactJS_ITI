@@ -10,7 +10,7 @@ const Users = (props)=>{
             </tr>
     ));
     return (
-          <table>
+          <table class = "table table-success rounded">
               <thead>
                   <tr>
                   <th>Name</th>
